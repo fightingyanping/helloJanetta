@@ -1,0 +1,8 @@
+package jse;
+
+public class ADHero implements Mortal{
+
+	public void die(){
+		
+	}
+}

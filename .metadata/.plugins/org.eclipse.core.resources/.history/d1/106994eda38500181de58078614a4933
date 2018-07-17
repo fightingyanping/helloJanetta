@@ -1,0 +1,12 @@
+package com.how2java.service;
+
+@Component("s")
+public class ProductService {
+     
+    public void doSomeService(){
+         
+        System.out.println("doSomeService");
+         
+    }
+     
+}

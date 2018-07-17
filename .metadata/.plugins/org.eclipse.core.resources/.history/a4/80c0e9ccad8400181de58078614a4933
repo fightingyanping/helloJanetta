@@ -1,0 +1,11 @@
+package jse;
+
+public class APHero implements Mortal{
+
+	@Override
+	public void die() {
+		System.out.println("Class APHero die.");
+		
+	}
+
+}

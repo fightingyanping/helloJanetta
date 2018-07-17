@@ -1,0 +1,6 @@
+package jse;
+
+public class ADHero implements Mortal{
+
+
+}

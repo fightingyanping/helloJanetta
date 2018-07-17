@@ -1,0 +1,5 @@
+StagingView_CompareMode=false
+always_use_staging_view=false
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>asd</message>\r\n<message>1</message>\r\n<message>sdf</message>\r\n<message>s</message>\r\n<message>modify helloworld content</message>\r\n<message>change helloworld to helloworld1</message>\r\n<message>test</message>\r\n</messages>
+eclipse.preferences.version=1
+show_initial_config_dialog=false

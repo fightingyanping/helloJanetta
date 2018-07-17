@@ -1,0 +1,27 @@
+package jse;
+
+public class Hero {
+
+	public String name;
+	public static void battleWin(){
+		System.out.println("wo shi hero");
+	}
+	
+	public static void main(String[] args){
+		Hero h =new Hero();
+        h.name = "gailun";
+         
+        ADHero ad = new ADHero();
+        ad.name = "aixi";
+         
+        APHero ap = new APHero();
+        ap.name = "anni";
+         
+        ADAPHero adap = new ADAPHero();
+        adap.name = "kuqi";
+        
+        h.kill(ad);
+        h.kill(ap);
+        h.kill(adap);
+	}
+}

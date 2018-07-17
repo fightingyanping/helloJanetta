@@ -1,0 +1,19 @@
+package jdbc;
+
+import java.sql.DriverManager;
+
+public class TestJDBC {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		try{
+			Class.forName("com.mysql.jdbc.Driver");
+			Connection c = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/how2java?characterEncoding=UTF-8","root","admin")
+			System.out.println("Success");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
+
+}

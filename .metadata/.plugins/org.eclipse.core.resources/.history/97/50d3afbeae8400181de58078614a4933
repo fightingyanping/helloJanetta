@@ -1,0 +1,8 @@
+package jse;
+
+public class Hero {
+
+	public void kill(Mortal m){
+		m.die();
+	}
+}

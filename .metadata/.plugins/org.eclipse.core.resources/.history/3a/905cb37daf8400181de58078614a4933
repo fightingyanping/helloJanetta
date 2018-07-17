@@ -1,0 +1,13 @@
+package jse;
+
+public class ADHero implements Mortal{
+
+	@Override
+	public void die() {
+
+		System.out.println("Class ADHero die.");
+		
+	}
+
+
+}

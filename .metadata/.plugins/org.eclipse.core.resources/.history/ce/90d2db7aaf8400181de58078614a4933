@@ -1,0 +1,11 @@
+package jse;
+
+public class ADAPHero implements Mortal{
+
+	@Override
+	public void die() {
+		// TODO Auto-generated method stub
+		System.out.println("Class ADAPHero die.");
+	}
+
+}
